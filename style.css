@@ -1,0 +1,81 @@
+body {
+    color: white;
+    background: rgb(2, 108, 150);
+    margin: 0px;
+    font-family: "Moderustic", sans-serif;
+    margin-bottom: 64px;
+}
+
+header {
+    color: rgb(70, 4, 121);
+    border-bottom: solid 2px rgb(0, 225, 255);
+    padding: 8px;
+    font-size: 32px;
+}
+
+.call {
+    background: rgb(0, 52, 112);
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+    padding-left: 58px;
+    padding-bottom: 28px;
+    border-bottom: solid 2px rgb(0, 255, 255);
+}
+
+.callText { 
+    margin-right: 10%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.beanGame {
+    background: rgb(0, 52, 112);
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    padding-top: 28px;
+    padding-left: 58px;
+    padding-bottom: 28px;
+    border-top: solid 2px rgb(0, 255, 255);
+    border-bottom: solid 2px rgb(0, 255, 255);
+}
+
+.beanText { 
+    margin-right: 10%;
+}
+
+.canal {
+    height: 50px;
+}
+
+.videos {
+    height: 200;
+}
+
+.allVideos {
+    display: flex;
+    overflow-x: auto;
+    gap: 1%;
+}
+
+.allVideos img {
+    opacity: 0.5;
+}
+
+.allVideos img:hover {
+    opacity: 1;
+    border: 2px solid rgb(0, 225, 255);
+}
+
+.sectionAllVideos {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
